@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1707738906423"
+    createdUser="paransha.vyas" id="-2eb9f5c5:18d9d26e644:-7e6d"
+    type="operation_resource" updatedTimestamp="1707739173835"
+    updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="167,250,230"
+        dependencies="-2eb9f5c5:18d9d26e644:-7ec2"
+        invokeFormatterID="kafka_formatter"
+        invokeTransportID="-2eb9f5c5:18d9d26e644:-7ec2" maxTime="0"
+        mepEndUsed="true" mepType="IN_OUT_PUBLISH" minTime="0">
+        <invokeHeaderNode name="" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="Message" name="Headers" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="disabled" name="Topic" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="disabled" name="PartitionId" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+            <_c meTy="Message" name="Parameters" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig/>
+        <invokeEndHeaderConfig/>
+        <stubEndHeaderNode name="" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+        </stubEndHeaderNode>
+    </resourceConfig>
+</editableResource>

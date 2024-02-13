@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1707738775752"
+    createdUser="paransha.vyas" id="-2eb9f5c5:18d9d26e644:-7ec1"
+    selfDescribing="KafkaCluster - Kafka Broker [kafka://localhost:9092]"
+    type="kafka_transport" updatedTimestamp="1707738951121"
+    updatedUser="paransha.vyas" version="1.0">
+    <loggingConfiguration debug="false" resultWriterLoggingLevel="FULL" writeStubEventsToDB="false"/>
+    <resourceConfig transportName="KafkaCluster" transportTemplateName="kafka">
+        <_c Auth="PLAIN" ClientId="API Tester"
+            ClientSecret="#com.ghc.1!90cc" Host="localhost"
+            OAuthClientId="" Port="9092" ProxyHost="" ProxyPort=""
+            Pwd="#com.ghc.1!d7da" StubMode="DIRECT" StubPort="0"
+            TokenEndPoint="" User="localhost" useSsl="false"/>
+    </resourceConfig>
+</editableResource>
